@@ -1,0 +1,11 @@
+endereço = input ("Digite seu endereço, contendo nome da rua e número, apenas com espaços: \n")
+
+dividir = endereço.split()
+
+
+dividir.sort(reverse=True)
+
+
+print("Endereço:",' '.join(dividir)) 
+
+print ('')
